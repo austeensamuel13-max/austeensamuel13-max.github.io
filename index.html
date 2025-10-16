@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>IPC Shalom Dallas — Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a class="logo-placeholder" href="index.html" aria-label="IPC Shalom Dallas - Home">
+        <span class="logo-mark">IS</span>
+        <span>IPC Shalom Dallas</span>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <div class="nav-item dropdown">
+          <a href="about.html">About Us ▾</a>
+          <div class="dropdown-menu" role="menu" aria-label="About submenu">
+            <a href="new-here.html">New Here</a>
+            <a href="values-beliefs.html">Values &amp; Beliefs</a>
+            <a href="team.html">Team</a>
+          </div>
+        </div>
+
+        <div class="nav-item"><a href="events.html">Events</a></div>
+        <div class="nav-item"><a href="give.html" class="btn btn-primary">Give</a></div>
+        <div class="nav-item"><a href="contact.html">Contact</a></div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-card">
+          <div class="hero-left">
+            <h1 class="hero-title">Welcome to IPC Shalom Dallas</h1>
+            <p class="hero-sub">A welcoming community seeking to love God, serve people, and share hope across Dallas.</p>
+            <p>
+              <a class="btn btn-primary" href="new-here.html">I'm New Here</a>
+              <a class="btn btn-outline" href="events.html" style="margin-left:10px">See Events</a>
+            </p>
+          </div>
+          <div style="width:300px;text-align:right">
+            <!-- visual placeholder -->
+            <div style="width:300px;height:200px;border-radius:12px;background:linear-gradient(180deg,#e9f1ff,#fff);display:flex;align-items:center;justify-content:center;border:1px solid #eef6ff">
+              <div class="small text-muted">Hero image / banner placeholder</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <section class="section" aria-labelledby="quick-links">
+          <h2 id="quick-links" class="section-title">Quick Links</h2>
+          <div class="card-grid" style="margin-top:12px">
+            <div class="card">
+              <h3 style="margin-top:0">Plan a Visit</h3>
+              <p class="text-muted">Find service times, location details, and what to expect for your first visit.</p>
+              <p><a href="new-here.html">Learn more →</a></p>
+            </div>
+            <div class="card">
+              <h3 style="margin-top:0">Upcoming Events</h3>
+              <p class="text-muted">Join community gatherings, worship nights, and small groups.</p>
+              <p><a href="events.html">See events →</a></p>
+            </div>
+            <div class="card">
+              <h3 style="margin-top:0">Give</h3>
+              <p class="text-muted">Support the ministry. This page contains a giving placeholder.</p>
+              <p><a href="give.html">Give →</a></p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <h4>IPC Shalom Dallas</h4>
+          <p>Welcoming all people to know Jesus and grow in faith.</p>
+          <p class="small">123 Church St., Dallas, TX • Service Times: Sun 10:30 AM</p>
+        </div>
+        <div style="text-align:right">
+          <h4>Contact</h4>
+          <p class="small">Phone: (214) 555-0123<br>Email: info@ipcshalomdallas.org</p>
+          <p class="small">© <span id="year"></span> IPC Shalom Dallas</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // small script for footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
