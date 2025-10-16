@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Give — IPC Shalom Dallas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="logo-placeholder" href="index.html"><span class="logo-mark">IS</span><span>IPC Shalom Dallas</span></a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <div class="nav-item dropdown">
+          <a href="about.html">About Us ▾</a>
+          <div class="dropdown-menu">
+            <a href="new-here.html">New Here</a>
+            <a href="values-beliefs.html">Values &amp; Beliefs</a>
+            <a href="team.html">Team</a>
+          </div>
+        </div>
+
+        <div class="nav-item"><a href="events.html">Events</a></div>
+        <div class="nav-item"><a href="give.html" class="btn btn-primary">Give</a></div>
+        <div class="nav-item"><a href="contact.html">Contact</a></div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container" style="max-width:720px">
+        <h1 class="section-title">Give</h1>
+        <p class="text-muted">Thank you for supporting IPC Shalom Dallas. This page is a placeholder for your giving options.</p>
+
+        <div class="form" style="margin-top:16px">
+          <p class="small">Placeholder: link to external giving platform (e.g., Tithe.ly, PayPal) or embed donation form here.</p>
+
+          <label for="amount" class="small">Suggested amount</label>
+          <select id="amount" class="input">
+            <option>$25</option>
+            <option>$50</option>
+            <option>$100</option>
+            <option>Other</option>
+          </select>
+
+          <label for="note" class="small">Note (optional)</label>
+          <input id="note" class="input" placeholder="e.g., Mission fund, General offering">
+
+          <div style="margin-top:10px">
+            <button class="btn btn-primary">Proceed to Giving (placeholder)</button>
+          </div>
+        </div>
+
+        <p class="small text-muted" style="margin-top:12px">This is a placeholder. When ready, replace the button with a secure link/form from your chosen provider.</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <h4>IPC Shalom Dallas</h4>
+          <p>Welcoming all people to know Jesus and grow in faith.</p>
+        </div>
+        <div style="text-align:right">
+          <h4>Contact</h4>
+          <p class="small">Phone: (214) 555-0123<br>Email: info@ipcshalomdallas.org</p>
+          <p class="small">© <span id="year"></span> IPC Shalom Dallas</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
