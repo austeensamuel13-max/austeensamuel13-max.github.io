@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>New Here — IPC Shalom Dallas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="logo-placeholder" href="index.html"><span class="logo-mark">IS</span><span>IPC Shalom Dallas</span></a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <div class="nav-item dropdown">
+          <a href="about.html">About Us ▾</a>
+          <div class="dropdown-menu">
+            <a href="new-here.html">New Here</a>
+            <a href="values-beliefs.html">Values &amp; Beliefs</a>
+            <a href="team.html">Team</a>
+          </div>
+        </div>
+
+        <div class="nav-item"><a href="events.html">Events</a></div>
+        <div class="nav-item"><a href="give.html" class="btn btn-primary">Give</a></div>
+        <div class="nav-item"><a href="contact.html">Contact</a></div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1 class="section-title">New Here?</h1>
+        <p class="text-muted">We're glad you're visiting. Below are answers to common questions for first-time guests.</p>
+
+        <div style="margin-top:18px" class="card-grid">
+          <div class="card">
+            <h3 style="margin-top:0">Service Times</h3>
+            <p class="text-muted">Sunday Worship: 10:30 AM</p>
+            <p class="small">Doors open 30 minutes early for coffee and fellowship.</p>
+          </div>
+          <div class="card">
+            <h3 style="margin-top:0">Location & Parking</h3>
+            <p class="text-muted">123 Church St., Dallas, TX — free parking behind the building.</p>
+          </div>
+          <div class="card">
+            <h3 style="margin-top:0">Kids & Youth</h3>
+            <p class="text-muted">We offer safe, fun programs for kids during the service. All volunteers are background-checked (placeholder).</p>
+          </div>
+        </div>
+
+        <section style="margin-top:22px">
+          <h3 class="section-title">Plan Your Visit</h3>
+          <p>Placeholder form or short questionnaire could go here for first-time visitors.</p>
+        </section>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <h4>IPC Shalom Dallas</h4>
+          <p>Welcoming all people to know Jesus and grow in faith.</p>
+        </div>
+        <div style="text-align:right">
+          <h4>Contact</h4>
+          <p class="small">Phone: (214) 555-0123<br>Email: info@ipcshalomdallas.org</p>
+          <p class="small">© <span id="year"></span> IPC Shalom Dallas</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
